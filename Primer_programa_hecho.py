@@ -27,7 +27,7 @@ def realizar_sorteo():
 
 # Crear ventana de Tkinter
 ventana = tk.Tk()
-ventana.title("Sorteo")
+ventana.title("El lauti")
 
 nombre_entries = []
 for i in range(5):
