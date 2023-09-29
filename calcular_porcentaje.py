@@ -49,3 +49,5 @@ class App_porcentaje(App):
 #Crea una instancia de la clase App_porcentaje y llama al método run() para iniciar la aplicación.
 if __name__ == '__main__':
     App_porcentaje().run()
+
+#Aprender a compilar
