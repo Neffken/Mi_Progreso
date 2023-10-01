@@ -1,0 +1,8 @@
+'es codigo para windows, se guarda como .vbs
+Dim var
+
+Do
+    var = MsgBox("Are you an idiot?", 4 + 16, "PC Hacked")
+Loop Until var = 6
+
+MsgBox "Hahah, I know it!", 0 + 64, "PC Hacked"
