@@ -1,6 +1,0 @@
-Set objShell = CreateObject("WScript.Shell")
-
-Do
-    MsgBox "¿En serio lo abriste?", 0 + 48, "Advertencia"
-    objShell.Run "wscript.exe """ & WScript.ScriptFullName & """"
-Loop
